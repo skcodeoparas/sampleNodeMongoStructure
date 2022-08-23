@@ -1,4 +1,4 @@
-const r = require('../appData/serverCode/serverResponse').serverResponse
+const r = require('../appData/responseCode/serverResponse').serverResponse
 async function HomeController(req, res){
     res.status(r.server.success).json("Welcome Home");
 }

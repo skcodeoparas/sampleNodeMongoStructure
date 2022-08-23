@@ -1,5 +1,5 @@
 const userRepo = require("../repo/userManage.repo");
-const r = require('../appData/serverCode/serverResponse').serverResponse
+const r = require('../appData/responseCode/serverResponse').serverResponse
 
 async function SignupController(req, res) {
   userRepo
