@@ -19,7 +19,7 @@ class Usermanage {
         
     }
     async registerUser(data){
-        const user = new this.model({emai: data.email, password : data.password});
+        const user = new this.model({email: data.email, password : data.password});
         try{
             const dbdata= await user.save()
             return dbdata;
